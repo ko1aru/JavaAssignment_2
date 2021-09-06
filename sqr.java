@@ -3,15 +3,18 @@ import java.util.Scanner;
 public class sqr {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int num;
-		int sqr;
 		Scanner sc= new Scanner(System.in);
 		System.out.print("Enter a number: "+ "\n");
 		num=sc.nextInt();
+		
+//calculating square of the number
+		int sqr;
 		sqr=num*num;
 		System.out.println("Square of "+num+" is: "+sqr);
 		
+//calculating square root of the number		
 		float temp, sqrt;
 		sqrt=num/2;
 		temp=0;
