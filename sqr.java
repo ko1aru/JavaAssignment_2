@@ -6,7 +6,7 @@ public class sqr {
 		
 		int num;
 		Scanner sc= new Scanner(System.in);
-		System.out.print("Enter a number: "+ "\n");
+		System.out.print("Enter a number: ");
 		num=sc.nextInt();
 		
 //calculating square of the number
